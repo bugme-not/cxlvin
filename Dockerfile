@@ -31,6 +31,7 @@ COPY --from=xray-bin /usr/local/bin/xray /usr/local/bin/xray
 
 COPY config.json /etc/xray.json
 COPY nginx.conf /usr/local/openresty/nginx/conf/nginx.conf
+COPY sysctl.conf /etc/sysctl.conf
 COPY entrypoint.sh /entrypoint.sh
 
 RUN chmod +x /usr/local/bin/xray
