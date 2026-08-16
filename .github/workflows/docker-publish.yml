@@ -19,4 +19,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ytrew/cxlvin:latest
+          tags: ytrew777/cxlvin:latest
